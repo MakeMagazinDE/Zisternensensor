@@ -10,7 +10,7 @@ Maker Media GmbH
 
 
 
-![Picture](https://github.com/MakeMagazinDE/zisternensensor/blob/master/zisternensensor.jpg) 
+![Picture](https://github.com/MakeMagazinDE/zisternensensor/blob/master/Sensor.jpg) 
 
 Hier finden Sie den Arduino Code.
 
