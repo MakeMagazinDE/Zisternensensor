@@ -14,4 +14,4 @@ Maker Media GmbH
 
 Hier finden Sie den Arduino Code.
 
-Den vollständigen Artikel mit der Bauanleitung gibt es in der [Make-Ausgabe 6/21 ab Seite 74](https://www.heise.de/select/make/). 
+Den vollständigen Artikel mit der Bauanleitung gibt es in der [Make-Ausgabe 6/21 ab Seite 74](https://www.heise.de/select/make/2021/6/2125307172628359231). 
