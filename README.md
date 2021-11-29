@@ -14,35 +14,4 @@ Maker Media GmbH
 
 Hier finden Sie den Arduino Code.
 
-Den vollständigen Artikel mit der Bauanleitung gibt es in der [Make-Ausgabe 6/21 ab Seite !!!](https://www.heise.de/select/make/). 
-
-
-
-### Materialliste
-
-| **Anzahl** | **Bezeichnung**                     |
-| :--------- | ----------------------------------- |
-| 1          | Gehäuse z.B. 170 mm X 120nn X 55 mm |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
-|            |                                     |
+Den vollständigen Artikel mit der Bauanleitung gibt es in der [Make-Ausgabe 6/21 ab Seite 74](https://www.heise.de/select/make/). 
