@@ -4,7 +4,7 @@
   
   Arduino-Bord: "NodeMCU 1.0(ESP-12E Module)"
   Autor Wolfgang Neußer
-  Stand: 24.10.2021
+  Stand: 15.11.2022
 
   Hardware:
   DOIT ESP12E Motor Shield mit L293D Motortreiber
@@ -60,7 +60,7 @@ const char* ssid = "Heimnetz-Name";
 const char* pass = "Heimnetz-Passwort";
 
 // An eigene Zisterne anpassen (zur Berechnung der Füllmenge)
-const int A = 3140;                       // Grundfläche der Zisterne in cm^2 (d * d * 3,14 / 4)
+const int A = 31400;                      // Grundfläche der Zisterne in cm^2 (d * d * 3,14 / 4)
 const int maxFuellhoehe = 3040;           // Füllhöhe der Zisterne in mm
 
 int atmDruck, messDruck, vergleichswert;
@@ -108,7 +108,7 @@ void messablauf() {
       case 3:  // Beruhigungszeit abgelaufen, Messwert ermitteln
          if (messung < millis()) {
             hoehe = String(wassersaeule / 10) + "cm";
-            volumen = String((wassersaeule / 10) * A / 100) + "L";
+            volumen = String((wassersaeule / 10) * A / 1000) + "L";
             // Umrechnung Wassersäule in 0 - 100%
             fuellstand = String(map(wassersaeule, 0, maxFuellhoehe, 0, 100)) + "%";
             Serial.println("Füllhöhe: "+ hoehe);
